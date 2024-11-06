@@ -1,0 +1,162 @@
+   body{
+    font-family: 'Georgia';
+    background-color: #00000016 72%;  }
+    h1 {
+      font-size: 420%;
+      color: rgb(243, 186, 186);
+      font-family: "Georgia"
+    }
+    h2 {
+      font-size: 230%;
+      color: rgb(255, 236, 236)ed;
+      font-family: "Georgia"
+    }
+    h3 {
+      font-size: 180%;
+      color: #e86883;
+      font-family: "Georgia"
+    }
+    p {
+      font-size: 150%;
+      color: #332b2b
+    }
+    .sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 5px dotted rgb(116, 253, 88); /* Параметры рамки */
+    padding: 10px; /* Поля внутри блока */
+    margin: 14px 0 9px 9px; /* Отступы вокруг */
+    background-color: #35472916 72%;    
+     margin: 0 auto 90 px; /* Отступы вокруг абзаца */
+     color: rgb(255, 255, 255)
+     font-family: "Georgia"
+     font-size: 200%;
+    }
+   ul {
+    color: #332b2b
+    font-family: "Georgia";
+     font-size: 120%;
+   }
+   ol {
+    color: #332b2b
+    font-family: "Georgia";
+     font-size: 120%;
+   }
+   header {
+     font-family: "Georgia";
+     font-size: 120%
+   }
+
+
+
+
+.dog-h {
+    width: 600px;
+    margin: 40px auto;
+    background-color: #24440f;     padding:25px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;}
+
+.dog {
+    position: relative;
+    overflow: hidden; }
+.subh {
+  font-size: 20px;
+  color: indianred;
+  font-weight: 700;
+}
+.dog-title a {
+    text-decoration: none;
+    color: #ff8181;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;}
+.dog-title-u a{
+  text-decoration-line: underline;
+  color: #7ddf56;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  transition: .3s ease-in-out;
+  }
+
+
+.dog-title a:hover {
+  color: rgb(113, 253, 148)
+
+.dog-title a:active {
+  color: palevioletred;
+}
+
+.dropdown {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color: #f5ed7f;
+        font-weight: 600;
+        margin: 15px 0 5px;
+        padding-bottom: 7px;
+        display: block;
+        position: relative;
+        transition: .3s ease-in-out;
+     }
+
+
+
+  a {
+     color: indianred;
+     font-family: "Georgia";
+     font-size: 120%;}
+
+a:link {
+  color: indianred;
+}
+
+a:active {
+  color: palevioletred;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #e76d6d;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  transition: .3s ease-in-out;
+     }
+
+     .dropdown-content {
+        display: none;
+        position: absolute;
+        max-width:150px;
+        background-color: #24440f;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 5;
+     }
+
+     .dropdown-content a {
+        color: #332b2b
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+     }
+     .dropdown-content a:hover {background-color: #24440f;}
+     .dropdown:hover
+     .dropdown-content {display: block;}
+
+     .image-section {
+      height: 1000px;
+      background-image: url("headingcat.webp");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-attachment: scroll; }
